@@ -64,36 +64,36 @@
         <div class="col">
           <fieldset>
             <legend class="text-center">And interesting fact about you!</legend>
-            <div class="row">
-              <div class="col-12 col-sm-6 form-group">
-                <div class="row">
-                  <div class="col-12 col-sm-6">
-                    <div>
-                      <label for="faforiteColor">Wat is you favorite color?</label>
-                    </div>
-                    <div>
-                      <input type="color" class="form-control" name="yourcolor" id="faforiteColor">
-                    </div>
-                  </div>
-                  <div class="col-12 col-sm-6 form-group">
-                    <div>
-                      <label for="timeToBed">What time do you go to bed?</label>
-                    </div>
-                    <div>
-                      <input type="time" class="form-control" name="timeToBed" id="timeToBed">
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <label for="rate">How do you rate our work?</label>
-                </div>
-                <div>
-                  <input type="range" class="custom-range" name="rate" id="rate" min="0" max="10">
-                </div>
+            <div class="row form-group">
+              <div class="col-lg-3 col-sm-6">
+                <label for="faforiteColor" >Wat is you favorite color?</label>
               </div>
-              <div class="col-12 col-sm-3 form-group">
-                <div class="custom-control custom-radio">
-                  <p>Do you love cats?</p>
+              <div class="col-lg-3 col-sm-6">
+                <input type="color" class="form-control" name="yourcolor" id="faforiteColor">
+              </div>
+            </div>
+            <div class="row form-group">
+              <div class="col-lg-3 col-sm-6">
+                <label  for="timeToBed">What time do you go to bed?</label>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <input type="time" class="form-control" name="timeToBed" id="timeToBed">
+              </div>
+            </div>
+            <div class="row form-group">
+              <div class="col-lg-3 col-sm-6">
+                <label for="rate">How do you rate our work?</label>                
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <input type="range" class="form-control-range custom-range" name="rate" id="rate" min="0" max="10">
+              </div>
+            </div>
+            <div class="row form-group">
+              <div class="col-lg-3 col-sm-6">
+                <p>Do you love cats?</p>                
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="custom-control custom-radio">                  
                   <input type="radio" value="yes" name="checkYesOrNo" id="yes" class="custom-control-input">
                   <label for="yes" class="custom-control-label">Yes</label>
                 </div>
@@ -102,17 +102,17 @@
                   <label for="no" class="custom-control-label">No</label>
                 </div>
               </div>
-              <div class="col-12 col-sm-3">
-                <div>
-                  <label for="brand">What you favorite brand of cars?</label>
-                </div>
-                <div>
-                  <select multiple name="brand" class="custom-select" id="brand">
-                    <option value="bmw">BMW</option>
-                    <option value="audi">Audi</option>
-                    <option value="lada" selected>Lada</option>
-                  </select>
-                </div>
+            </div>
+            <div class="row form-group">
+              <div class="col-lg-3 col-sm-6">
+                <label for="brand">What you favorite brand of cars?</label>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <select multiple name="brand" class="custom-select" id="brand">
+                  <option value="bmw">BMW</option>
+                  <option value="audi">Audi</option>
+                  <option value="lada" selected>Lada</option>
+                </select>
               </div>
             </div>
           </fieldset>
